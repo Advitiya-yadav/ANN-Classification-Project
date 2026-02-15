@@ -1,0 +1,95 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# System Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+
+# =========================
+# ML / DL specific
+# =========================
+*.h5
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.joblib
+
+# Dataset folders (uncomment if needed)
+# data/
+# datasets/
+
+# =========================
+# C / C++
+# =========================
+*.o
+*.out
+*.exe
+*.a
+*.so
+*.class
+
+# =========================
+# PyTorch Lightning
+# =========================
+lightning_logs/
+
+# =========================
+# Cache
+# =========================
+.cache/
